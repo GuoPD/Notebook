@@ -1,0 +1,8 @@
+1. 载入参数User2VideoRecommendContextBuilder
+
+1. 构建Handler User2VideoDefaultRecommendHandler
+
+1. Handler.handle返回recommendResult
+1. 根据RecommendContext包含BuketUtil的情况决定添加VideoItems
+1. exploreEnable对应videoExplore
+video2videoEnable对应

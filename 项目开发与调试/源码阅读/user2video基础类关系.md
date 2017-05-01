@@ -1,0 +1,24 @@
+## 推荐器构建类
+>Recommender
+RecommendContext
+RecommenderBuilder
+
+## User2VideoRetrieveKeyBuilder
+调用RetrieveKeyBuilderPipline，批量调用 Build方法，生成RetrieveKeys
+
+## RecommenderBuilder构建内容
+
+>Recommender
+queryItems
+recommenderName
+candidateName
+Validator
+RetrieveKeyBuilder
+RetrieveResultsBlender
+RetrieveKeyBasedRetriever
+FeatureExtractor
+Predictor
+PreProcessor
+PostProcessor
+FeatureDumper
+RetrievePostProcessor
